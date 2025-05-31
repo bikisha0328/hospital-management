@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Add Patient</h3>
+<form method="post">
+    Name: <input name="name"><br>
+    Age: <input name="age" type="number"><br>
+    Gender: <select name="gender">
+        <option>Male</option>
+        <option>Female</option>
+    </select><br><br>
+    <button type="submit">Add</button>
+</form>
+{% endblock %}
